@@ -50,7 +50,7 @@ const App = () => {
     return (
     <div className="App">
         <p></p>
-        <h1>SQL GenAI</h1>
+        <h1>GenAI SQL Assistant</h1>
       <MessagesDisplay userMessages={filteredUserMessages}/>
       <input value={value} onChange={e => setValue(e.target.value)}/>
       <CodeDisplay text={latestCode?.content || ""}/>
